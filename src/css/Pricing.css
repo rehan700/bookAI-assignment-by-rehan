@@ -1,0 +1,16 @@
+.pricing-card{
+    justify-content: center;
+    align-items: center;
+  display: flex;
+  position: relative;
+  padding-top: 30px;
+  border-radius: 15px;
+}
+#card-custom{
+    width: 70vw;
+    border-radius: 10px;
+    background-color: rgb(31, 46, 60);
+}
+.table-head{
+    background-color: rgb(99, 17, 240);
+}

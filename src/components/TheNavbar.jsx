@@ -7,7 +7,7 @@ const TheNavbar = (props) => {
     <Navbar bg="dark" variant="dark" expand="lg" className="px-3">
       <Navbar.Brand href="#" className="d-flex align-items-center">
         <img
-          src="src\images\logo.png"
+          src="dist\assets\logo-BH7GV76F.png"
           width="50"
           height="45"
           className="d-inline-block align-top"
@@ -28,7 +28,7 @@ const TheNavbar = (props) => {
         <Button variant="primary" className="mx-2 login-btn">
           Login / Sign Up
         </Button>
-        <div class="form-check form-switch">
+        <div className="form-check form-switch">
           <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onClick={props.modefunction} />
           <label className="form-check-label" htmlFor="flexSwitchCheckDefault" style={{ color: '#fff', fontSize: '13px' }}>Switch to <br />{props.mode === 'dark' ? "light" : "dark"} mode</label>
         </div>

@@ -3,6 +3,8 @@ import TheNavbar from './components/TheNavbar'
 import Body from './components/Body'
 import Button from './components/Button'
 import './css/Navbar.css'
+import Pricing from './components/Pricing'
+import './css/Pricing.css'
 
 function App() {
   const [mode, setMode] = useState("light")
@@ -26,6 +28,9 @@ function App() {
       <Body mode={mode}/>
       <div className="mybutton2">
         <Button />
+      </div>
+      <div className='pricing-card'>
+        <Pricing />
       </div>
     </>
   )
